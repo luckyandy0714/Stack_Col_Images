@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-width = 1024
-height = 720
+width = 1920
+height = 1080
 wave_unm = 8
 
 pattern = np.zeros((height, width), dtype=np.uint8)
