@@ -21,7 +21,7 @@ for i in range(0, pattern_num):
                 pattern[:, start_col:end_col] = 255
         if j % 2 == 1:
             bit_negate = not bit_negate
-
+    #pattern = cv2.rotate(pattern, cv2.ROTATE_90_CLOCKWISE)
     #cv2.imshow(f"Gray_Code_{i}", pattern)
     cv2.imwrite(f"Gray_Code_{i}.jpg", pattern)
 
